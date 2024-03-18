@@ -26,22 +26,32 @@ background-color: var(--Corprimaria)
     --BackgroundProdutos: blue;
     --CorPresença: rgba(52, 218, 209, 0.103);
 }
-#cabecalho {
-    background-color: rgb(31, 34, 37);
-    
-}
-header h1{
-    font-family:'Comforter';
-    background-color: var(--CorPrimaria);
-    text-align: center;
-    text-decoration: overline;
-    width: 100%;
-    font-size: 50px;  
-}
+
+
 /*Cabecalho*/
 header {
     background-color: var(--CorSecundaria);
     text-align: center;
 }
 
+header, h1, footer {
+    font-family:'Comforter';
+    background-color: var(--CorPrimaria);
+    text-align: center;
+    text-decoration: overline;
+    width: 100%;
+    font-size: 30px;  
+}
 
+header #cabecalho{
+    font-size: 10px;
+    background-color: rgb(16, 17, 17);
+    
+}
+    
+header a {
+    /* pra tirar decoração */
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0px 0px 0px 30px ;
+}
