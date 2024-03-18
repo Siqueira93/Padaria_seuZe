@@ -1,33 +1,17 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-/*Variaveis do CSS
-:root{
-    --Corprimaria: color #f0000
-}
-RESULTADO:
-Todas as variaveis podemos chamar por comando var(--Corprimaria)
 
-background-color: var(--Corprimaria)
+.banner{
+    display: flex;
+    position: relative;
+    justify-content: cover;
 
-*/
-:root {
-    --CorPrimaria: rgb(2, 182, 71);
-    
 }
 body{   
     width: 100%;
     background-size: cover;    
 }
-h1{
-    background-color: var(--CorPrimaria);
-    text-align: center;
-    text-decoration: overline;
-    width: 100%;
-    font-size: 50px;   
-}
+
+
+
 h2{
     color: var(--CorPrimaria);
 }
@@ -47,12 +31,13 @@ h2{
     width: 200px;
     padding: 10px;
     border-radius: 5px;
-    background-color: rgb(189, 189, 64);
+    background-color: var(--CorPrimaria);
     /*Acrescentar uma caixa de sombra/shadow*/
     box-shadow: 2px 2px rgb(46, 46, 46);
     gap: 8px;
     text-align: center;
 }
+
 #produto img{
     width: 100%;
     border-radius: 10%;

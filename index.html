@@ -5,51 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!--fonte titulo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Madimi+One&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <!--fonte principal-->
+    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Madimi+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>PADARIA DO SEU ZÉ</h1>
+    <!--
+
+    <header></header> --CABECALHO
+    <main></main> -- CONTEUDO
+    <footer></footer> --RODAPE
+
+    -->
+
     <!--Menu-->
-    <div id="cabecalho">
-    <a href="#" type="--Menu--">INICIO</a>
-    <a href="#" type="--Menu--">PRODUTOS</a>
-    <a href="#" type="--Menu--">CARRINHO</a>
-    <a href="#" type="X-UA-Compatible">SOBRE</a>
+    <header>
+        <h1>PADARI DO SEU ZÉ</h1>
+        <div id="cabecalho">
+            <a href="#" type="--Menu--">INICIO</a>
+            <a href="pages/contatos.html" type="--Menu--">Contatos</a>
+            <a href="#" type="--Menu--">CARRINHO</a>
+            <a href="#" type="X-UA-Compatible">SOBRE</a>
+        </div>
+    </header>
+
+    
+    <!--Banner-->
+    <div id="banner">
+        <img src="images/TopoVirada.jpg" width="500px" alt="">
     </div>
+
     <!--Catalago-->
-    <div>
-        <h2><li>Sessão de Doces</li></h2>
-    </div>        
-        <div class="doces">
-            <div id="produto">
-            <img src="images/cupcakes.jpg" alt="" width="300px">
+    <h2>Doces</h2>        
+    <div class="doces">
+        <div id="produto">
+            <img src="images/PRODUTOS/cupcakes.jpg" alt="" width="300px">
             <h4>CUPCAKES</h4>
             <p>O mais saboroso Cupcakes da Região</p>
             <p>R$ 15,00 (cada)</p>
             <br>
             <br>
             <button type="button">Acrescente ao CARRINHO</button>
-            </div>
-        
-            <div id="produto">
-            <img src="images/cappuccino.jpg" alt="" width="300px">
+        </div>
+        <div id="produto">
+            <img src="images/PRODUTOS/cappuccino.jpg" alt="" width="300px">
             <h4>CAPPUCCINO</h4>
             <p></p>
             <p>R$ 7,50</p>
             <br><br><br><br>
             <button type="button">Acrescente ao CARRINHO</button>
-            </div>
         </div>
+    </div>
         
-            <div><h2><li>Sessão Sanduiches e hamburgers</li></h2></div>
-        <div class="hamburgers">
-                <div id="produto">
-                    <img src="images/hamburger.jpg" alt="" width="300px">
-                    <h4>PRODUTO</h4>
-                    <p>DADOS</p>
-                    <p>R$</p>
-                    <button type="button">Acrescente ao CARRINHO</button>
-                </div>
+    <h2>Sanduiches e hamburgers</h2> 
+    <div class="hamburgers">
+        <div id="produto">
+            <img src="images/PRODUTOS/hamburger.jpg" alt="" width="300px">
+            <h4>PRODUTO</h4>
+            <p>DADOS</p>
+            <p>R$ 20,00 (cada)</p>
+            <button type="button">Acrescente ao CARRINHO</button>
         </div>
+        <br>
+        <div id="produto">
+            <img src="images/PRODUTOS/sandwich.jpg" alt="" width="300px">
+            <h4>Sanduiches</h4>
+            <p>O mais saborosos Sanduiches da Região</p>
+            <p>R$ 15,00 (cada)</p>
+            <br>
+            <br>
+            <button type="button">Acrescente ao CARRINHO</button>
+        </div>
+    </div>
+<br><br><br><br><br><br><br>
+<!--Substituir RODAPE POR FOOTER-->
+        <footer>Todos os direitos resevados!</footer>
 </body>
 </html>
