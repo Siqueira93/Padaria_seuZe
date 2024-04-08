@@ -1,15 +1,5 @@
 /* @fonte-face */
-@font-face {
-    font-family: 'Madimi';/*Nesse caso aqui pode definir o nome que quiser*/
-    src: url(https://fonts.googleapis.com/css2?family=Comforter&family=Madimi+One&display=swap);
-    font-weight: normal;
-}
 
-*{
-    margin: 0%;
-    padding: 0%;
-    font-family:'Madimi';
-}
 /*Variaveis do CSS
 :root{
     --Corprimaria: color #f0000
@@ -27,18 +17,19 @@ background-color: var(--Corprimaria)
     --CorPresença: rgba(52, 218, 209, 0.103);
 }
 
-
-/*Cabecalho*/
-header {
-    background-color: var(--CorSecundaria);
-    text-align: center;
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-header, h1, footer {
+/*Cabecalho*/
+
+
+footer {
     font-family:'Comforter';
-    background-color: var(--CorPrimaria);
+    background-color: gray;
     text-align: center;
-    text-decoration: overline;
     width: 100%;
     font-size: 30px;  
 }

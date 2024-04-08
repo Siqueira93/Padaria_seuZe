@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,41 +9,56 @@
     <link rel="stylesheet" href="styles/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!--fonte titulo-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Madimi+One&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
     <!--fonte principal-->
-    <link href="https://fonts.googleapis.com/css2?family=Comforter&family=Madimi+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
 </head>
 <body>
-    <!--
-    <header></header> --CABECALHO
-    <main></main> -- CONTEUDO
-    <footer></footer> --RODAPE
-    -->
-    <!--
-        teste
-    -->
 
     <!--Menu-->
     <header>
-        <h1>PADARI DO SEU ZÉ</h1>
-        <div id="cabecalho">
-            <a href="index.html" type="--Menu--">Inicio</a>
-            <a href="pages/contatos.html" type="--Menu--">Contatos</a>
-            <a href="#" type="--Menu--">Carrinho</a>
-            <a href="#" type="X-UA-Compatible">Sobre</a>
-        </div>
+        <h1>PADARIA DO SEU ZÉ</h1>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="images/icons/icons8-pão-48.png" alt="">
+                    PADARIA
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produtos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contate-nos</a>
+                      </li>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Procurar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    
-    <!--Banner-->
-    <div id="banner">
-        <img src="images/TopoVirada.jpg" width="500px" alt="">
+    <main>
+        <!--Banner-->
+    <div class="banner">
+        
     </div>
 
     <!--Catalago-->
-    <h2>Doces</h2>        
+    <h2>
+        Doces
+        <img src="images/icons/icons8-linha-recheada-de-pudim-doce-e-sobremesa-externa-linha-recheada-andi-nur-abdillah-64.png" width="50px" height="50px" alt="">
+    </h2>        
     <div class="doces">
         <div id="produto">
             <img src="images/PRODUTOS/cupcakes.jpg" alt="" width="300px">
@@ -64,27 +79,31 @@
         </div>
     </div>
         
-    <h2>Sanduiches e hamburgers</h2> 
+    <h2>
+        Sanduiches
+        <img src="images/icons/icons8-sanduíche-80.png"  width="40px" height="40px">
+    </h2> 
     <div class="hamburgers">
         <div id="produto">
             <img src="images/PRODUTOS/hamburger.jpg" alt="" width="300px">
             <h4>PRODUTO</h4>
             <p>DADOS</p>
             <p>R$ 20,00 (cada)</p>
+            <br>
             <button type="button">Acrescente ao CARRINHO</button>
         </div>
-        <br>
+
         <div id="produto">
             <img src="images/PRODUTOS/sandwich.jpg" alt="" width="300px">
             <h4>Sanduiches</h4>
             <p>O mais saborosos Sanduiches da Região</p>
             <p>R$ 15,00 (cada)</p>
-            <br>
-            <br>
             <button type="button">Acrescente ao CARRINHO</button>
         </div>
     </div>
-<br><br><br><br><br><br><br>
+    </main>
+    
+
 <!--Substituir RODAPE POR FOOTER-->
         <footer>Todos os direitos resevados!</footer>
 </body>
